@@ -1,5 +1,15 @@
 # Tanzanie-Data-Viz
 
+## Subject
+
+You can find the data [HERE](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/).
+
+Before importing the data in elasticsearch : 
+* You have to remove the first line
+* You have to add a column after status group. This column contains a numeric value representing the status.
+
+## HELP
+
 Here some usefull command : 
 
 * run elasticsearch, kabana, and logstash with docker : 
